@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+div{
+width: 200px;
+height: 200px;
+background: yellow ;
+border-radius: 0 0 50% 50%;
+margin-top: 300px;
+}
+
+#figura2{
+    margin-top: -100PX ;
+    transform: scaleY(-1);
+    }

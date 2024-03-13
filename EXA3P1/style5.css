@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    }
+
+div{
+height: 100px;
+
+}
+
+#figura1{
+   width: 140px;
+   background: yellow;
+    }
+
+    #figura2{
+        width: 60px;
+        background: red;
+         }
+
+         #figura1::before{
+            content: "";
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: skyblue;
+        border-radius: 50%;
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+box-shadow:  200px 0 skyblue, 0px 100px skyblue, 200px 100px skyblue,  140px 0px 0px -10px skyblue, 140px 100px 0px -10px skyblue  ;  
+
+         }

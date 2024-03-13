@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: skyblue;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-between;
+    align-content: space-between;
+    align-content: space-between;
+    padding: 50px;
+    }
+
+    div{
+margin: 100px;
+        width: 100px;
+        height: 100px;
+        background:rgb(0, 25, 250) ;
+    }
